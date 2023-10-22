@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Memo Editor</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Welcome to your Memo Editor!</h1>
+  <div id="mainButtons">
+    <button id="create">Create Memo</button>
+    <button id="open">Open Memo</button>
+  </div>
+  <div id="editor" style="display: none;">
+    <h2>Edit your memo here:</h2>
+    <textarea id="input" rows="20" cols="40"></textarea>
+    <div id="settings">
+      <h3>Settings</h3>
+      <div>
+        <label for="fontColor">Font Color:</label>
+        <select id="fontColor">
+          <option value="black">Black</option>
+          <option value="white">White</option>
+        </select>
+      </div>
+      <div>
+        <label for="fontSize">Font Size:</label>
+        <input type="number" id="fontSize" min="1" max="100" value="16">
+      </div>
+      <div>
+        <label for="bgColor">Background Color:</label>
+        <input type="color" id="bgColor">
+      </div>
+    </div>
+    <button id="back">Back</button> 
+    <button id="prev" disabled>Previous Memo</button>
+    <button id="next" disabled>Next Memo</button>
+    <button id="save">Save Memo</button>
+  </div>
+  <div id="memoContainer">
+  </div>
+  <script src="create_memo.js"></script>
+</body>
+</html>
