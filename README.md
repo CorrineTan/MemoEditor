@@ -18,3 +18,7 @@
 8. You can use the Settings to change Font Color (Black/White), Font Size or Background. It's globally setting and will set every memos to the same style you choose.
 
 ## Enjoy!!!
+
+Website Demo Image | 
+:-------------------------:|
+![memo-editior](./images/demo.png)  |  
